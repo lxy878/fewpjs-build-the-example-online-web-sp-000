@@ -18,7 +18,13 @@ document.addEventListener('DOMContentLoaded', ()=>{
       // setTimeout to hide
       event = heart
       mimicServerCall().then(() => {
-        heart.innerText = heart.textContent == EMPTY_HEART ? FULL_HEART : EMPTY_HEART;
+        if (heart.textContent == EMPTY_HEART) {
+          heart.innerText = FULL_HEART;
+        }else{
+           heart.innerText = EMPTY_HEART;
+        }
+      }).catch(err => {
+
       })
     })
   }
