@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
       // error message
       // remove hidden
       // setTimeout to hide
-      event = heart
       mimicServerCall().then(() => {
         if (heart.textContent == EMPTY_HEART) {
           heart.innerText = FULL_HEART;
@@ -35,7 +34,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 const errorMessage = (error) => {
   divModal.className = '';
-  event
+  event = divModal
 }
 
 //------------------------------------------------------------------------------
