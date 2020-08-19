@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 const errorMessage = (error) => {
   divModal.className = '';
-  divModal.firstElementChild.innerText = error
+  divModal.lastElementChild.innerText = error
   event = divModal
 }
 
