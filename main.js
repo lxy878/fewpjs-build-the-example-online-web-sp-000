@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
       // error message
       // remove hidden
       // setTimeout to hide
-      mimicServerCall().then(resp => const.log(resp));
+      event = mimicServerCall().then(resp => const.log(resp));
     })
   }
 })
