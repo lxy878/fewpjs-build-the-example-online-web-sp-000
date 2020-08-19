@@ -16,8 +16,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
       // error message
       // remove hidden
       // setTimeout to hide
-      event = mimicServerCall().then(() => {
-
+      event = heart
+      mimicServerCall().then(() => {
+        heart.innerText = heart.content
       })
     })
   }
