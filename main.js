@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   for (const heart of hearts){
     heart.addEventListener('click', e =>{
       // heart.innerText = FULL_HEART;
+      // error appear and error message and remove hidden and setTimeout to hide
       event = minicServerall();
     })
   }
