@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   for (const heart of hearts){
     heart.addEventListener('click', e =>{
       // e.targer.innerText = FULL_HEART;
-      console.log(e.targer);
+      console.log(heart);
     })
   }
 })
