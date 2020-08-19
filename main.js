@@ -17,10 +17,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
   // }
 })
 
-document.addEventListener('click', e =>{
-  event = e
-})
-
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
 //------------------------------------------------------------------------------
