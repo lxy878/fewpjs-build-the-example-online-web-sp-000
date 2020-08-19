@@ -4,8 +4,9 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 document.querySelector('div#modal').className = 'hidden';
+
 document.addEventListener('DOMContentLoaded', ()=>{
-  
+
 })
 
 
