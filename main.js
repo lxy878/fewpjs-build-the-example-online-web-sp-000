@@ -37,8 +37,7 @@ const errorMessage = (error) => {
   divModal.lastElementChild.innerText = error;
   setTimeout(() => {
     divModal.className = 'hidden';
-    
-  });
+  }, 5000);
   event = divModal
 }
 
