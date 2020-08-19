@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
            heart.className = '';
         }
       }).catch(err => {
-
+        errorMessage()
       })
     })
   }
