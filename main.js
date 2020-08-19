@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 })
 
 document.addEventListener('like', e =>{
-  console.log(e.targer)
+  console.log(e.targer);
 })
 
 //------------------------------------------------------------------------------
