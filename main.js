@@ -6,7 +6,8 @@ const FULL_HEART = '♥'
 document.querySelector('div#modal').className = 'hidden';
 
 document.addEventListener('DOMContentLoaded', ()=>{
-
+  const hearts = document.querySelectorAll('span.like-glyph');
+  
 })
 
 document.addEventListener('click', e =>{
