@@ -7,7 +7,9 @@ document.querySelector('div#modal').className = 'hidden';
 
 document.addEventListener('DOMContentLoaded', ()=>{
   const hearts = document.querySelectorAll('span.like-glyph');
-  
+  for (const heart in hearts){
+    
+  }
 })
 
 document.addEventListener('click', e =>{
