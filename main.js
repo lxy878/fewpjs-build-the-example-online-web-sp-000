@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
            heart.className = '';
         }
       }).catch(err => {
-        errorMessage();
+        errorMessage(err);
       })
     })
   }
@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 const errorMessage = () => {
   divModal.className = '';
+
 }
 
 //------------------------------------------------------------------------------
