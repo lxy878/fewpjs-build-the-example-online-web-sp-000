@@ -8,13 +8,13 @@ let event;
 document.querySelector('div#modal').className = 'hidden';
 
 document.addEventListener('DOMContentLoaded', ()=>{
-  // const hearts = document.querySelectorAll('span.like-glyph');
-  // for (const heart of hearts){
-  //   heart.addEventListener('click', e =>{
-  //     heart.innerText = FULL_HEART;
-  //     event = e;
-  //   })
-  // }
+  const hearts = document.querySelectorAll('span.like-glyph');
+  for (const heart of hearts){
+    heart.addEventListener('click', e =>{
+      heart.innerText = FULL_HEART;
+      event = e;
+    })
+  }
 })
 
 //------------------------------------------------------------------------------
