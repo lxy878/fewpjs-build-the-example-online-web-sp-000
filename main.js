@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
           heart.className = 'activated-heart';
         }else{
            heart.innerText = EMPTY_HEART;
+           heart.className = '';
         }
       }).catch(err => {
 
