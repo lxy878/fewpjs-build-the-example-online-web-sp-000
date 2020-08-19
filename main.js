@@ -13,10 +13,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
   const hearts = document.querySelectorAll('span.like-glyph');
   for (const heart of hearts){
     heart.addEventListener('click', e =>{
-      // error appear
-      // error message
-      // remove hidden
-      // setTimeout to hide
       mimicServerCall().then(() => {
         if (heart.textContent == EMPTY_HEART) {
           heart.innerText = FULL_HEART;
