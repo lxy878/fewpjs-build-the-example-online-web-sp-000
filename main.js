@@ -31,6 +31,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
   }
 })
 
+const errorMessage = () => {
+  
+}
+
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
 //------------------------------------------------------------------------------
