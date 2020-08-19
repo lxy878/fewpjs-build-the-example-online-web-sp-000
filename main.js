@@ -13,10 +13,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
     heart.addEventListener('click', e =>{
       // heart.innerText = FULL_HEART;
       // error appear
-      // error message 
+      // error message
       // remove hidden
       // setTimeout to hide
-      event = minicServerall();
+      event = mimicServerCall(0);
     })
   }
 })
