@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   for (const heart of hearts){
     heart.addEventListener('click', e =>{
       // heart.innerText = FULL_HEART;
-      minicServerall()
+      event = minicServerall();
     })
   }
 })
