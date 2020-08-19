@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 })
 
-
+document.addEventListener('like', e =>{
+  console.log(e.targer)
+})
 
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
