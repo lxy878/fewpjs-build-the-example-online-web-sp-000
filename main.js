@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   const hearts = document.querySelectorAll('span.like-glyph');
   for (const heart in hearts){
     heart.addEventListener('click', e =>{
-      
+      console.log(e.targer)
     })
   }
 })
