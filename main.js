@@ -5,7 +5,7 @@ const FULL_HEART = '♥'
 // Your JavaScript code goes here!
 let event;
 
-document.querySelector('div#modal').className = 'hidden';
+const divModal = document.querySelector('div#modal').className = 'hidden';
 
 document.addEventListener('DOMContentLoaded', ()=>{
   const hearts = document.querySelectorAll('span.like-glyph');
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 })
 
 const errorMessage = () => {
-  
+
 }
 
 //------------------------------------------------------------------------------
