@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
       mimicServerCall().then(() => {
         if (heart.textContent == EMPTY_HEART) {
           heart.innerText = FULL_HEART;
+          heart.className = 'activated-heart'
         }else{
            heart.innerText = EMPTY_HEART;
         }
